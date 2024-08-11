@@ -1,11 +1,9 @@
-// Exercicio 3
-console.log("main.js funcionando.")
+console.log("script.js funcionando.")
 
 const inputNumero1 = document.getElementById('inputNumero1')
 const inputNumero2 = document.getElementById('inputNumero2')
 const txtResultado = document.getElementById('txt-resultado')
 
-// Exercicio 4
 function soma(numero1, numero2) {
     const resultado = numero1 + numero2
     return resultado
@@ -20,5 +18,5 @@ function calcularResultado(event) {
     const resultado = soma(num1, num2)
     txtResultado.innerText = `Resultado: ${resultado}`
     
-    // alert(resultado)
+  // caso queira Pop-up "alert (resultado)"
 }
